@@ -1,0 +1,94 @@
+/* 
+    Created on : Feb 16, 2016, 1:33:43 PM
+    Author     : Asya
+*/
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: ivory;
+    background: dimgrey;
+    line-height: 1.4em;
+}
+
+#container{
+    width: 735px;
+    margin: 40px auto;
+    overflow: hidden;
+}
+
+#slider{
+    width: 720px;
+    height: 615px;
+    position: absolute;
+    overflow: hidden;
+    float: left;
+    padding: 3px;
+    border: ivory solid 2px;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.slide{
+    position: absolute;
+}
+
+.slide-copy{
+    width: 720px;
+    bottom: 0px;
+    left: 0px; 
+    position: absolute;
+    text-align: justify;
+    background: dimgrey;
+    background: rgba(0, 0, 0, 0.5);
+}
+ 
+#slider img{
+    width: 720px;
+    height: 615px;
+}
+
+#next{
+    float: right; 
+    cursor: pointer; 
+    margin-right: 45px;
+    margin-top: 275px;
+    z-index: 1;
+}
+
+#prev {
+    float: left; 
+    cursor: pointer; 
+    margin-left: 45px;
+    margin-top: 275px;
+    z-index: 1;
+}
+
+a{
+    color: ivory;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: khaki;
+}
+
+b{
+    color: khaki;
+}
+
+p{ 
+    font-size: 13px;
+}
+
+.footer{
+    margin-top: 675px;
+    font-size: 13px;
+    color: khaki;
+}
